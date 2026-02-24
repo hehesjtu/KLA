@@ -51,14 +51,15 @@ for ii = 1:LengthFiles
     timePerImage(ii) = elapsedTime;
     totalTime = totalTime + elapsedTime;
     
-    fprintf('图片 %d/%d 处理完成，耗时: %.4f s\n', ii, LengthFiles, elapsedTime);    
+    fprintf('Image %d/%d processed successfully. Time consumed: %.4f s\n', ii, LengthFiles, elapsedTime);    
 
       clear outimg;
     disp('...........................');
 end
 % Calculate and display statistical information.
 averageTime = totalTime / LengthFiles;
-fprintf('\n处理完成！\n');
-fprintf('总处理时间: %.4f 秒\n', totalTime);
-fprintf('平均每张图片处理时间: %.4f 秒\n', averageTime);
+fprintf('\nProcessing completed！\n');
+fprintf('Total processing time: %.4f s\n', totalTime);
+fprintf('Average processing time per image: %.4f s\n', averageTime);
+
 
