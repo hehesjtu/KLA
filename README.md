@@ -17,7 +17,7 @@ By formulating matching errors as "resistance," the optimization path naturally 
 ## System Requirements
 The code was developed and tested on the following platform:
 
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2024b+-blue.svg)](https://www.mathworks.com/products/matlab.html)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2022b+-blue.svg)](https://www.mathworks.com/products/matlab.html)
 ## Usage
 
 ### 1. Setup
