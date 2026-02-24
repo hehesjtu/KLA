@@ -1,0 +1,13 @@
+# Environment Requirements
+MATLAB_VERSION=R2022b
+
+# Required Toolboxes (Standard for Image Processing tasks described in paper)
+Image Processing Toolbox
+Signal Processing Toolbox
+Statistics and Machine Learning Toolbox
+
+# Dataset Dependencies (External)
+# The code requires the following datasets to be placed in the /datasets directory:
+RealSRSet
+BSDS200
+T91
