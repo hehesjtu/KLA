@@ -28,9 +28,9 @@ Run the main script to enhance an input image. The default parameters are set ac
 
 ```matlab
 % Example Configuration
-T_max = 4;  % Maximum iterations
-N = 10;     % Population size
-alpha = 0.001;% Regularization weight
-beta = 0.001; % Regularization weight
+T_max = 4;             % Maximum iterations
+N = 10;                % Population size
+alpha = 0.001;         % Regularization weight
+beta = 0.001;          % Regularization weight
 % Run KCLIDE
 I_enhanced = KCLIDE(I_input, T_max, N, alpha, beta);
