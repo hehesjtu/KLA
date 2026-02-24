@@ -8,9 +8,6 @@ Existing residual learning-based methods often adopt greedy search strategies, l
 To address this, KCLIDE models the image patch matching process as the dynamic behavior of current within a circuit. 
 By formulating matching errors as "resistance," the optimization path naturally converges toward regions of minimum resistance (global optimality) without requiring manual parameter tuning.
 
-![Framework](path/to/framework_figure.png)
-*Figure 1: The KCLIDE optimization framework."Current" flows to high-matching regions, adjusting search paths to escape local optima.*
-
 ## Features
 * Physically-Driven Optimization:** Inspired by KCL, utilizing current and resistance concepts to drive patch matching.
 * Global Optimality:** Escapes local optima found in greedy search strategies.
