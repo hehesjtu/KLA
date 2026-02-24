@@ -9,10 +9,10 @@ To address this, KCLIDE models the image patch matching process as the dynamic b
 By formulating matching errors as "resistance," the optimization path naturally converges toward regions of minimum resistance (global optimality) without requiring manual parameter tuning.
 
 ## Features
-* Physically-Driven Optimization:** Inspired by KCL, utilizing current and resistance concepts to drive patch matching**.
-* Global Optimality:** Escapes local optima found in greedy search strategies.
-* Parameter Free:** Converges to a steady state without manual parameter tuning.
-* Superior Performance:** Outperforms state-of-the-art methods (including QWLS, ILS, and Deep Learning methods) on BSDS200, RealSRSet, and T91 datasets.
+* Physically-Driven Optimization: Inspired by KCL, utilizing current and resistance concepts to drive patch matching.
+* Global Optimality: Escapes local optima found in greedy search strategies.
+* Parameter Free: Converges to a steady state without manual parameter tuning.
+* Superior Performance: Outperforms state-of-the-art methods (including QWLS, ILS, and Deep Learning methods) on BSDS200, RealSRSet, and T91 datasets.
 
 ## System Requirements
 The code was developed and tested on the following platform:
